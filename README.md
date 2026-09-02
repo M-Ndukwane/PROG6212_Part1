@@ -131,3 +131,11 @@ The Enrollments entity links participants to events and records the category sel
 -Sample enrollments
 
 -Sample race results
+
+##Technology
+
+Database: Microsoft SQL Server
+
+Database Management Tool: SQL Server Management Studio (SSMS)
+
+Database Name: RaceDay
