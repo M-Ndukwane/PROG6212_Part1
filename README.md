@@ -113,3 +113,21 @@ Categories → Enrollments: One category can have many enrollments.
 Enrollments → Results: One enrollment can have zero or one result.
 
 The Enrollments entity links participants to events and records the category selected by the participant.
+
+## Sample Data
+
+### The SQL database script contains realistic sample data including:
+
+-2 Organisers
+
+-2 Participants
+
+-3 Events
+
+-3 Venues
+
+-Multiple categories for each event
+
+-Sample enrollments
+
+-Sample race results
