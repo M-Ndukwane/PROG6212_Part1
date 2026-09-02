@@ -46,11 +46,11 @@ Update or correct race results.
 
 Manage event details such as the venue, date, start time, registration deadline, and status.
 
-###Participant
+### Participant
 
 A Participant is a user who registers and takes part in RaceDay events.
 
-####Participants can:
+#### Participants can:
 
 Register for an account.
 
@@ -71,3 +71,23 @@ Cancel their own enrollment.
 View their race results.
 
 Participants can only manage their own profile and enrollments.
+
+## Database Entities
+
+### The RaceDay database contains seven main entities:
+
+Entity/Description
+
+*Roles-Stores the system roles, including Organiser and Participant.
+
+*Users-Stores user account and profile information and links each user to a role.
+
+*Events-Stores race event information, including its organiser, venue, date, time, and status.
+
+*Categories-Stores the race categories available for each event.
+
+*Enrollments-Records participants who enroll in events and the category they select.
+
+*Results-Stores race results for enrolled participants.
+
+*Venues-Stores the locations where race events take place.
