@@ -132,10 +132,25 @@ The Enrollments entity links participants to events and records the category sel
 
 -Sample race results
 
-##Technology
+## Technology
 
 Database: Microsoft SQL Server
 
 Database Management Tool: SQL Server Management Studio (SSMS)
 
 Database Name: RaceDay
+
+## Documentation
+
+### The /docs folder contains:
+
+/docs
+-raceday-erd.md
+-api-endpoint-plan.md
+-raceday-schema.sql
+
+raceday-erd.md — Contains the Entity Relationship Diagram, entities, attributes, keys, relationships, and cardinality.
+
+api-endpoint-plan.md — Contains the planned API endpoints, HTTP methods, routes, roles, request bodies, and expected responses.
+
+raceday-schema.sql — Creates the RaceDay database, tables, constraints, relationships, and sample data.
