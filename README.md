@@ -158,3 +158,7 @@ raceday-schema.sql — Creates the RaceDay database, tables, constraints, relati
 ## Purpose
 
 The purpose of RaceDay is to provide a structured system for managing race events, participants, categories, enrollments, venues, and results while maintaining accurate and consistent data through a relational database.
+
+## CI/CD Screenshot
+<img width="948" height="434" alt="image" src="https://github.com/user-attachments/assets/629f4177-5c5d-4e7c-82b8-a0417bb26cb4" />
+
