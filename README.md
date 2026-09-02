@@ -91,3 +91,25 @@ Entity/Description
 *Results-Stores race results for enrolled participants.
 
 *Venues-Stores the locations where race events take place.
+
+##Database Relationships
+
+###The database contains the following relationships:
+
+Roles → Users: One role can have many users.
+
+Users → Events: One organiser can organise many events.
+
+Venues → Events: One venue can host many events.
+
+Events → Categories: One event can contain many categories.
+
+Users → Enrollments: One participant can create many enrollments.
+
+Events → Enrollments: One event can have many enrollments.
+
+Categories → Enrollments: One category can have many enrollments.
+
+Enrollments → Results: One enrollment can have zero or one result.
+
+The Enrollments entity links participants to events and records the category selected by the participant.
