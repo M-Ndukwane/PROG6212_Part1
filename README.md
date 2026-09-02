@@ -154,3 +154,7 @@ raceday-erd.md — Contains the Entity Relationship Diagram, entities, attribute
 api-endpoint-plan.md — Contains the planned API endpoints, HTTP methods, routes, roles, request bodies, and expected responses.
 
 raceday-schema.sql — Creates the RaceDay database, tables, constraints, relationships, and sample data.
+
+## Purpose
+
+The purpose of RaceDay is to provide a structured system for managing race events, participants, categories, enrollments, venues, and results while maintaining accurate and consistent data through a relational database.
