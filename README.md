@@ -92,9 +92,9 @@ Entity/Description
 
 *Venues-Stores the locations where race events take place.
 
-##Database Relationships
+## Database Relationships
 
-###The database contains the following relationships:
+### The database contains the following relationships:
 
 Roles → Users: One role can have many users.
 
